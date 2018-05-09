@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 25%;
+    height: 22vh;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+input {
+    font-size: 45px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.row {
+    display: flex;
+}
+
+#plus {
+    margin-left: 0;
+}
+
+button {
+    flex-grow: 1;
+    height: 7vh;
+    background-color: white;
+    outline: none;
+    border: 2px solid black;
+    margin-left: 3%;
+    font-size: 20px
+}
